@@ -7,5 +7,4 @@ func main() {
 	var width int = 2
 
 	fmt.Println("Area is:", length*float64(width))
-
 }
