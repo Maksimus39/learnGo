@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-var midddleName = "Key"
+var middleName = "Key"
 
 func main() {
 	age := 10
+	middleName = "Value"
+	fmt.Println(middleName)
 
 	fmt.Println(age)
 
@@ -20,7 +22,7 @@ func main() {
 	// Pointers, slices, maps, function, and struct
 
 	// ---- SCOPES
-	fmt.Println(midddleName)
+	fmt.Println(middleName)
 
 	fmt.Println(lastNameLarisa())
 }
