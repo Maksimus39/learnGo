@@ -5,12 +5,12 @@ import (
 	"net/http"
 )
 
-func main(){
+func main() {
 	fmt.Println("Hello, go standart libraries")
 
-	resp, err:= http.Get("https://jsonplaceholder.typicode.com/posts/1")
+	resp, err := http.Get("https://jsonplaceholder.typicode.com/posts/1")
 
-	if err !=nil{
+	if err != nil {
 		fmt.Println("Error", err)
 		return
 	}
